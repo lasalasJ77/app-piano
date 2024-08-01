@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'app-piano';
+  title = 'Piano';
 
   aplicarSonido(numero: number): void {
     const audio = new Audio();
