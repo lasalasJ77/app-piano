@@ -10,7 +10,7 @@ export class AppComponent {
 
   aplicarSonido(numero: number): void {
     const audio = new Audio();
-    audio.src = '/sonidos/note' + numero + '.mp3';
+    audio.src = 'sonidos/note' + numero + '.mp3';
     audio.load();
     audio.play();
   }
